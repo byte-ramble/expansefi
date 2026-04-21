@@ -8,7 +8,7 @@
         name: "opland",
         tag: "AI 驱动的 DeFi 流动性平台",
         description:
-          "来自 sibling repo 的链上流动性平台，统一多链池子发现、收益拆分、资产总览、借贷入口与监控配置，同时保持非托管执行边界。",
+          "一个链上流动性产品，覆盖多链池子发现、收益拆分、资产总览、借贷入口与监控配置，并保持非托管执行。",
         bgLetter: "O",
         link: "https://github.com/byte-ramble/opland",
         status: "Repo",
@@ -20,7 +20,7 @@
         name: "omniguard",
         tag: "AI 原生 Web3 安全平台",
         description:
-          "把链上监测、交易仿真、协议评级与响应流程收敛到统一安全控制面，面向 Web3 团队提供研究驱动的机构级安全能力。",
+          "把链上监测、交易仿真、协议评级与响应流程整合到一个安全工作台，帮助 Web3 团队更系统地做安全分析和日常响应。",
         bgLetter: "G",
         link: "https://omniguard.pro",
         status: "Site",
@@ -32,7 +32,7 @@
         name: "Catal",
         tag: "LP 抵押信用市场",
         description:
-          "聚合 LP-backed credit markets、curated vaults 与受约束的 permissionless market creation，让 LP 头寸可以进入更完整的借贷与资金配置轨道。",
+          "围绕 LP 抵押构建信用市场，结合 curated vaults 与受约束的 permissionless market creation，让 LP 头寸进入更完整的借贷和资金配置流程。",
         bgLetter: "C",
         link: "https://catal.pro",
         status: "Site",
@@ -46,7 +46,7 @@
         name: "opland",
         tag: "AI-Driven DeFi Liquidity Platform",
         description:
-          "A sibling-repo product surface for multi-chain pool discovery, yield decomposition, portfolio views, lending entry points, and monitoring workflows while keeping execution non-custodial.",
+          "A liquidity product covering multi-chain pool discovery, yield decomposition, portfolio views, lending entry points, and monitoring workflows while keeping execution non-custodial.",
         bgLetter: "O",
         link: "https://github.com/byte-ramble/opland",
         status: "Repo",
@@ -58,7 +58,7 @@
         name: "omniguard",
         tag: "AI-Native Web3 Security Platform",
         description:
-          "A unified security control plane combining runtime telemetry, transaction simulation, protocol ratings, and response workflows for research-driven institutional Web3 security.",
+          "A security workspace that combines runtime telemetry, transaction simulation, protocol ratings, and response workflows for Web3 teams.",
         bgLetter: "G",
         link: "https://omniguard.pro",
         status: "Site",
@@ -70,7 +70,7 @@
         name: "Catal",
         tag: "LP-Backed Credit Markets",
         description:
-          "An LP credit product line combining LP collateral markets, curated vaults, and constrained permissionless market creation into one lending rail.",
+          "An LP credit product combining LP collateral markets, curated vaults, and constrained permissionless market creation into a more complete lending flow.",
         bgLetter: "C",
         link: "https://catal.pro",
         status: "Site",

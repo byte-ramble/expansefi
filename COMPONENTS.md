@@ -186,8 +186,8 @@ interface ApproachItem {
 
 ```html
 <div class="footer-links">
-  <a href="./en.html">English</a>
-  <a href="https://expansefi.com" target="_blank">Website</a>
+  <a href="./en/">English</a>
+  <a href="https://www.expansefi.com" target="_blank">Website</a>
   <a href="mailto:pitch@expansefi.com">Pitch Email</a>
 </div>
 ```

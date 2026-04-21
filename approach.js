@@ -5,12 +5,12 @@
       {
         num: "01",
         title: "孵化优先",
-        desc: "很多时候我们在品类尚未变成显学之前就进入，帮助创始团队一起定义市场地图、产品楔子与第一轮叙事。",
+        desc: "很多时候我们会在产品方向还不够清晰时进入，帮助团队一起梳理市场、确定产品楔子，并准备第一轮融资材料。",
       },
       {
         num: "02",
         title: "高带宽尽调",
-        desc: "尽调会深入到架构、激励、风控与安全边界，确保投资 memo 本身就能反哺产品和上线准备。",
+        desc: "尽调会看到架构、激励、风控与安全边界，尽量让这套投资材料本身也能反过来帮助产品和上线准备。",
       },
       {
         num: "03",
@@ -19,20 +19,20 @@
       },
       {
         num: "04",
-        title: "按长弧线配置资本",
-        desc: "我们更在意品类占位与网络形成，而不是短期速度感。工作的衡量标准是耐久性，不是热度。",
+        title: "按长期来判断",
+        desc: "我们更在意团队能不能持续交付，而不是短期热度。衡量标准是业务能否站住，不是故事是否好听。",
       },
     ],
     en: [
       {
         num: "01",
         title: "Incubation First",
-        desc: "We often enter before a category is obvious, helping define the market map, product wedge, and the first financing narrative with the founding team.",
+        desc: "We often get involved while the product direction is still forming, helping the team map the market, define the wedge, and prepare the first financing materials.",
       },
       {
         num: "02",
         title: "High-Bandwidth Diligence",
-        desc: "Diligence goes deep on architecture, incentives, risk, and security boundaries so the memo itself becomes useful operating material.",
+        desc: "Diligence goes into architecture, incentives, risk, and security boundaries so the resulting materials can also become useful operating material.",
       },
       {
         num: "03",
@@ -41,8 +41,8 @@
       },
       {
         num: "04",
-        title: "Long-Arc Capital",
-        desc: "We care more about category ownership and network formation than short-term speed optics. Durability is the real KPI.",
+        title: "Long-Term Judgment",
+        desc: "We care more about whether a team can keep delivering than whether the story looks fast in the short term. Durability is the real KPI.",
       },
     ],
   };
