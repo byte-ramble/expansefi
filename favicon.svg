@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#0A0A08" />
+  <rect x="8" y="8" width="48" height="48" fill="none" stroke="#C9A84C" stroke-width="2" />
+  <text
+    x="32"
+    y="37"
+    fill="#E8C97A"
+    font-family="'DM Mono', monospace"
+    font-size="18"
+    letter-spacing="2"
+    text-anchor="middle"
+  >
+    EF
+  </text>
+</svg>
