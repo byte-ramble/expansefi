@@ -8,7 +8,7 @@
         name: "opland",
         tag: "AI 驱动的 DeFi 流动性平台",
         description:
-          "一个链上流动性产品，覆盖多链池子发现、收益拆分、资产总览、借贷入口与监控配置，并保持非托管执行。",
+          "一个链上流动性产品，覆盖多链池子发现、收益拆分、资产总览、借贷入口与监控配置，执行保持非托管。",
         bgLetter: "O",
         link: "https://github.com/byte-ramble/opland",
         status: "Repo",
@@ -20,7 +20,7 @@
         name: "omniguard",
         tag: "AI 原生 Web3 安全平台",
         description:
-          "把链上监测、交易仿真、协议评级与响应流程整合到一个安全工作台，帮助 Web3 团队更系统地做安全分析和日常响应。",
+          "把链上监测、交易仿真、协议评级与响应流程整合到一个工作台，让 Web3 团队的安全分析和日常响应更顺手。",
         bgLetter: "G",
         link: "https://omniguard.pro",
         status: "Site",
@@ -32,7 +32,7 @@
         name: "Catal",
         tag: "LP 抵押信用市场",
         description:
-          "围绕 LP 抵押构建信用市场，结合 curated vaults 与受约束的 permissionless market creation，让 LP 头寸进入更完整的借贷和资金配置流程。",
+          "围绕 LP 抵押构建信用市场，结合 curated vaults 与受约束的 permissionless market creation，让 LP 头寸接入更完整的借贷与资金配置流程。",
         bgLetter: "C",
         link: "https://catal.pro",
         status: "Site",
@@ -109,7 +109,7 @@
 
     const summary = document.querySelector("[data-portfolio-summary]");
     if (summary) {
-      summary.textContent = pageLanguage === "zh" ? `${count} / 平行工程` : `${count} / Parallel Builds`;
+      summary.textContent = pageLanguage === "zh" ? `${count} / 在推进` : `${count} / Active`;
     }
   }
 

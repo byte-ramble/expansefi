@@ -458,9 +458,9 @@ section[id] {
 
 .hero-title {
   font-family: var(--font-display);
-  font-size: clamp(60px, 8vw, 112px);
-  line-height: 0.94;
-  letter-spacing: -0.05em;
+  font-size: clamp(54px, 7vw, 96px);
+  line-height: 0.98;
+  letter-spacing: -0.045em;
   margin-bottom: var(--space-4);
 }
 
@@ -491,9 +491,33 @@ section[id] {
 }
 
 .hero-note {
-  padding: 18px 20px;
+  position: relative;
+  padding: 18px 20px 18px 22px;
   background: rgba(255, 255, 255, 0.02);
   border: 1px solid rgba(255, 255, 255, 0.04);
+  transition:
+    border-color var(--duration-base) var(--ease-out),
+    background var(--duration-base) var(--ease-out);
+}
+
+.hero-note::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 20px;
+  bottom: 20px;
+  width: 2px;
+  background: rgba(201, 168, 76, 0.35);
+  transition: background var(--duration-base) var(--ease-out);
+}
+
+.hero-note:hover {
+  border-color: rgba(201, 168, 76, 0.18);
+  background: rgba(201, 168, 76, 0.03);
+}
+
+.hero-note:hover::before {
+  background: var(--gold);
 }
 
 .hero-note strong {
@@ -577,7 +601,25 @@ section[id] {
   display: none;
 }
 
+.rail-panel-quote {
+  position: relative;
+}
+
+.rail-panel-quote::before {
+  content: "“";
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-family: var(--font-display);
+  font-size: 64px;
+  line-height: 1;
+  color: rgba(201, 168, 76, 0.3);
+  pointer-events: none;
+}
+
 .rail-panel-quote p {
+  position: relative;
+  padding-left: 28px;
   color: var(--text-muted);
   font-size: 15px;
   line-height: 1.8;
@@ -607,10 +649,13 @@ section[id] {
 
 /* Marquee */
 .marquee-wrap {
+  position: relative;
   overflow: hidden;
   border-top: var(--border-subtle);
   border-bottom: var(--border-subtle);
   background: rgba(201, 168, 76, 0.03);
+  mask-image: linear-gradient(90deg, transparent 0, black 8%, black 92%, transparent 100%);
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, black 8%, black 92%, transparent 100%);
 }
 
 .marquee-track {
@@ -688,6 +733,16 @@ section[id] {
   padding: 22px;
   border: 1px solid rgba(201, 168, 76, 0.1);
   background: rgba(255, 255, 255, 0.018);
+  transition:
+    border-color var(--duration-base) var(--ease-out),
+    background var(--duration-base) var(--ease-out),
+    transform var(--duration-base) var(--ease-out);
+}
+
+.matrix-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(201, 168, 76, 0.24);
+  background: rgba(201, 168, 76, 0.035);
 }
 
 .matrix-num,
@@ -775,6 +830,18 @@ section[id] {
   border-left: 1px solid rgba(255, 255, 255, 0.04);
   border-right: 1px solid rgba(255, 255, 255, 0.04);
   border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  transition:
+    transform var(--duration-base) var(--ease-out),
+    border-top-color var(--duration-base) var(--ease-out),
+    background var(--duration-base) var(--ease-out);
+}
+
+.platform-card:hover {
+  transform: translateY(-3px);
+  border-top-color: var(--gold);
+  background:
+    linear-gradient(180deg, rgba(201, 168, 76, 0.07), transparent 24%),
+    rgba(255, 255, 255, 0.03);
 }
 
 .platform-card h3 {
@@ -1002,6 +1069,11 @@ section[id] {
 .approach-item {
   padding-top: 22px;
   border-top: 2px solid rgba(201, 168, 76, 0.24);
+  transition: border-top-color var(--duration-base) var(--ease-out);
+}
+
+.approach-item:hover {
+  border-top-color: var(--gold);
 }
 
 .approach-num {
@@ -1030,9 +1102,19 @@ section[id] {
 }
 
 .support-card {
-  padding: 20px 22px;
+  position: relative;
+  padding: 22px 22px 20px;
   border: 1px solid rgba(255, 255, 255, 0.04);
+  border-top: 1px solid rgba(201, 168, 76, 0.24);
   background: rgba(255, 255, 255, 0.02);
+  transition:
+    border-color var(--duration-base) var(--ease-out),
+    background var(--duration-base) var(--ease-out);
+}
+
+.support-card:hover {
+  border-top-color: var(--gold);
+  background: rgba(201, 168, 76, 0.035);
 }
 
 .support-card strong {
@@ -1068,6 +1150,18 @@ section[id] {
     linear-gradient(180deg, rgba(201, 168, 76, 0.05), transparent 20%),
     rgba(255, 255, 255, 0.02);
   border: 1px solid rgba(201, 168, 76, 0.1);
+  transition:
+    border-color var(--duration-base) var(--ease-out),
+    background var(--duration-base) var(--ease-out),
+    transform var(--duration-base) var(--ease-out);
+}
+
+.team-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(201, 168, 76, 0.24);
+  background:
+    linear-gradient(180deg, rgba(201, 168, 76, 0.08), transparent 22%),
+    rgba(255, 255, 255, 0.03);
 }
 
 .team-top {
